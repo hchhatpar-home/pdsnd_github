@@ -11,5 +11,5 @@ Interactive program to get statistics about US Bikeshare Rentals
 bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Template of bikeshare.py was borrowed from UDACITY
 
