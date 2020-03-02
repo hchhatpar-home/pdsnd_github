@@ -35,7 +35,7 @@ def chunker(iterable, size):
     
 def get_yes_no_input(question):
     '''
-    returns yes or no input form user for given question 
+    returns yes or no input from user for given question 
 
     '''
     answer_key = ['yes', 'no']
@@ -44,12 +44,12 @@ def get_yes_no_input(question):
                 response =  input('\n'+ question + '.\n')
                 response = response.lower()
                 if response not in answer_key:
-                  print("Not valid input. ")
+                  print("Not valid input. yes or no are the only valid values.")
                   continue
                 else:
                   break
             except ValueError:
-                print("Sorry, I didn't understand that.")
+                print("Sorry, I didn't understand that. yes or no are the only valid values.")
                 continue
 
 
@@ -71,11 +71,11 @@ def get_filters():
         try:
             city = input("Please enter city : chicago, new york city or washington: ")
         except ValueError:
-            print("Sorry, I didn't understand that.")
+            print("Sorry, I didn't understand that. chicago, new york city or washington are the only valid values.")
             continue
 
         if city.lower() not in CITY_DATA:
-            print("Not valid input. ")
+            print("Not valid input. chicago, new york city or washington are the only valid values")
             continue 
         else:
             break
