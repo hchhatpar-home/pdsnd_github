@@ -24,7 +24,7 @@ def convert(seconds):
 
 
 def chunker(iterable, size):
-    """Yield successive chunks from iterable of length size."""
+    """Yield successive chunks of specified size from provided iterable data set."""
 
     for i in range(0, len(iterable), size):
         yield iterable[i:i + size]
