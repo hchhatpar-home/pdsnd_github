@@ -71,11 +71,11 @@ def get_filters():
         try:
             city = input("Please enter city : chicago, new york city or washington: ")
         except ValueError:
-            print("Sorry, I didn't understand that.")
+            print("Sorry, I didn't understand that. chicago, new york city or washington are the only valid values.")
             continue
 
         if city.lower() not in CITY_DATA:
-            print("Not valid input. ")
+            print("Not valid input. chicago, new york city or washington are the only valid values")
             continue 
         else:
             break
