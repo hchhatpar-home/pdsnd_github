@@ -5,10 +5,10 @@ Msrch 2, 2020
 US Bikeshare Rental Statistics
 
 ### Description
-Describe what your project is about and what it does
+Interactive program to get statistics about US Bikeshare Rentals
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
