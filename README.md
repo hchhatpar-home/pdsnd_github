@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+March 2, 2020
 
 ### Project Title
-Replace the Project Title
+US Bikeshare Rental Statistics
 
 ### Description
-Describe what your project is about and what it does
+Interactive program to get statistics about US Bikeshare Rentals
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Template of bikeshare.py was borrowed from UDACITY
 
